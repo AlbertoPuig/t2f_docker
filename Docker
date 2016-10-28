@@ -1,0 +1,5 @@
+Run container
+>>>>>>
+sudo docker run -i -t -v $PWD/share__:/usr/shared python/t2f python /usr/t2f.py Trello_Board_name -ve
+/usr/shared value of path variable (see cond.load.py, trello_conn.py, feature_maker.py)
+>>>>>>
